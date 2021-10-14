@@ -1,0 +1,11 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/pskon/Workbench_repo/lab3_v2/lab3_v2.sim/sim_1/behav/xsim/glbl.v,1633050588,verilog,,,,glbl,,,,,,,,
+C:/Users/pskon/Workbench_repo/lab3_v2/lab3_v2.srcs/sim_1/imports/Downloads/fourbitfulladd testbench.v,1632466172,verilog,,,,testbench_4,,,,,,,,
+C:/Users/pskon/Workbench_repo/lab3_v2/lab3_v2.srcs/sim_1/imports/Downloads/fulladd testbench.v,1632466080,verilog,,,,fulltb,,,,,,,,
+C:/Users/pskon/Workbench_repo/lab3_v2/lab3_v2.srcs/sim_1/imports/Downloads/mut tb.v,1633056802,verilog,,,,muttb,,,,,,,,
+C:/Users/pskon/Workbench_repo/lab3_v2/lab3_v2.srcs/sources_1/imports/Downloads/fourbitfulladd design.v,1633065407,verilog,,C:/Users/pskon/Workbench_repo/lab3_v2/lab3_v2.srcs/sim_1/imports/Downloads/fourbitfulladd testbench.v,,fulladder4bit,,,,,,,,
+C:/Users/pskon/Workbench_repo/lab3_v2/lab3_v2.srcs/sources_1/imports/Downloads/fulladd design.v,1633062945,verilog,,C:/Users/pskon/Workbench_repo/lab3_v2/lab3_v2.srcs/sim_1/imports/Downloads/fulladd testbench.v,,fulladder,,,,,,,,
+C:/Users/pskon/Workbench_repo/lab3_v2/lab3_v2.srcs/sources_1/imports/Downloads/mut design.v,1633057381,verilog,,C:/Users/pskon/Workbench_repo/lab3_v2/lab3_v2.srcs/sim_1/imports/Downloads/mut tb.v,,mut,,,,,,,,

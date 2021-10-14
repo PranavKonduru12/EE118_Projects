@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Oct  2 13:57:23 2021
+# Process ID: 19368
+# Current directory: C:/Users/pskon/Workbench_repo/labD
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3656 C:\Users\pskon\Workbench_repo\labD\labD.xpr
+# Log file: C:/Users/pskon/Workbench_repo/labD/vivado.log
+# Journal file: C:/Users/pskon/Workbench_repo/labD\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/pskon/Workbench_repo/labD/labD.xpr
+update_compile_order -fileset sources_1
+close [ open C:/Users/pskon/Workbench_repo/labD/labD.srcs/sources_1/new/segment7.v w ]
+add_files C:/Users/pskon/Workbench_repo/labD/labD.srcs/sources_1/new/segment7.v
+update_compile_order -fileset sources_1
+file mkdir C:/Users/pskon/Workbench_repo/labD/labD.srcs/constrs_1/new
+close [ open C:/Users/pskon/Workbench_repo/labD/labD.srcs/constrs_1/new/seven_constraints.xdc w ]
+add_files -fileset constrs_1 C:/Users/pskon/Workbench_repo/labD/labD.srcs/constrs_1/new/seven_constraints.xdc
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/labD/labD.srcs/constrs_1/new/seven_constraints.xdc]
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/labD/labD.srcs/sources_1/new/segment7.v]
