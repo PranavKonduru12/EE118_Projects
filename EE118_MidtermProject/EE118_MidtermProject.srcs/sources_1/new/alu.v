@@ -62,13 +62,13 @@ module comparator_3bit(
     
     always @(*) begin
         // for g4
-        if (a3[2] > g1) begin
+        if (a3[0] > b3[0]) begin
             g3 = 1;
             l3 = 0;
             e3 = 0;
         end
         //for l4
-        else if (a[3] = l1) begin
+        else if (a3[0] < b3[0]) begin
             g3 = 0;
             l3 = 1;
             e3 = 0;

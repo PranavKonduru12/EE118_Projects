@@ -20,17 +20,17 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module comparator_4it_tb();
-    reg [2:0] a4, b4;
-    wire g4, e4, l4;
+module comparator_3it_tb();
+    reg [2:0] a3, b3;
+    wire g3, e3, l3;
     
-    comparator_4bit t1 (.a4(a4), .b4(b4), .g4(g4), .e4(e4), .l4(l4));
+    comparator_3bit t1 (.a3(a3), .b3(b3), .g3(g3), .e3(e3), .l3(l3));
     
     initial 
         begin
-            #50 a4 = 3'b000; b4 = 3'b000;
-            #50 a4 = 3'b000; b4 = 3'b001;
-            #50 a4 = 3'b001; b4 = 3'b000;
-            #50 a4 = 3'b111; b4 = 3'b111;
+            #50 a3 = 3'b000; b3 = 3'b000;
+            #50 a3 = 3'b000; b3 = 3'b001;
+            #50 a3 = 3'b001; b3 = 3'b000;
+            #50 a3 = 3'b111; b3 = 3'b111;
         end
 endmodule
