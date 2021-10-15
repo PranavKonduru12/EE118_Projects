@@ -20,7 +20,66 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module comparator(
-
+module comparator_2bit(
+    input [1:0] a, b,
+    output reg g, e, l
     );
+    always @(*) begin
+        if (a > b) begin
+        g = 1;
+        l = 0;
+        e = 0;
+        end
+        
+        else if (a < b) begin
+        g = 1;
+        l = 0;
+        e = 0;
+        end
+        
+        else begin
+        g = 1;
+        l = 0;
+        e = 0;
+        end
+        
+    end
+    //assign g = (a[1] & !b[1]) | (a[0] & !b[1] & !b[0]) | (a[1] & a[0] & b[0])
+    //assign e = (!a[1] & !a[0] & !b[1] & !b[0]) | (!a[1] & a[0] & !b[1] & b[0]) | (a[1] & a[0] & b[1] & b[0]) | (a[1] & !a[0] & b[1] & !b[0])    
+    //assign l = (!a[1] & b[1]) | (!a[1] & !a[0] & b[0]) | (!a[0] & b[1] & b[0]);
 endmodule
+
+module comparator_3bit(
+    input [2:0] a3, b3,
+    output reg g3, e3, l3
+    );
+    
+    wire g1, e1, l1; 
+    
+    //instantiation twice
+    comparator_2bit comp1(.a(a3[2:0]), .b(b3[2:0]), .g(g1), .e(e1), .l(l1));
+    //comparator_2bit comp2(.a(a4[2:1]), .b(b4[2:1]), .g(g2), .e(e2), .l(l2));
+    
+    always @(*) begin
+        // for g4
+        if (a3[2] > g1) begin
+            g3 = 1;
+            l3 = 0;
+            e3 = 0;
+        end
+        //for l4
+        else if (a[3] = l1) begin
+            g3 = 0;
+            l3 = 1;
+            e3 = 0;
+        end
+        //for e4
+        else begin
+            g3 = 0;
+            l3 = 0;
+            e3 = 1;
+        end
+    end
+endmodule
+
+//full
