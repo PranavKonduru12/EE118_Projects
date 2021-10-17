@@ -32,15 +32,15 @@ module comparator_2bit(
         end
         
         else if (a < b) begin
-        g = 1;
-        l = 0;
+        g = 0;
+        l = 1;
         e = 0;
         end
         
         else begin
-        g = 1;
+        g = 0;
         l = 0;
-        e = 0;
+        e = 1;
         end
         
     end
