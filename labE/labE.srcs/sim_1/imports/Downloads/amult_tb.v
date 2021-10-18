@@ -18,8 +18,8 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
-
-
+//Pranav Konduru
+//ID: 013162916
 module amult_tb();
 
 reg [3:0] a,b;
@@ -34,6 +34,7 @@ initial begin
 #50 a = 4'b1010; b = 4'b1011; hin = 0; vin = 0;
 #50 a = 4'b0110; b = 4'b1000; hin = 0; vin = 0;
 #50 a = 4'b1111; b = 4'b1111; hin = 0; vin = 0;
+
 end
 
 

@@ -18,6 +18,8 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
+//Pranav Konduru
+//ID: 013162916
 module adder (
     input a,b,vcin,hcin,
     output vcout,hcout

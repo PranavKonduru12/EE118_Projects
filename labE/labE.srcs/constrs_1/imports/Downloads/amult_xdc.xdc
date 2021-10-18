@@ -1,3 +1,5 @@
+#Pranav Konduru
+#ID: 013162916
 # NEXYX A7 Pin Assignments
 ############################
 ## On-board Slide Switches ##

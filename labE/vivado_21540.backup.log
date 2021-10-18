@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Oct 17 23:01:15 2021
+# Process ID: 21540
+# Current directory: C:/Users/pskon/Workbench_repo/labE
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4132 C:\Users\pskon\Workbench_repo\labE\labE.xpr
+# Log file: C:/Users/pskon/Workbench_repo/labE/vivado.log
+# Journal file: C:/Users/pskon/Workbench_repo/labE\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/pskon/Workbench_repo/labE/labE.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/013162916/labE' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 721.145 ; gain = 59.891
+update_compile_order -fileset sources_1

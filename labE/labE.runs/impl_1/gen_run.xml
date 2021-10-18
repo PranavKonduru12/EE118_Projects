@@ -1,69 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1633625239">
-  <File Type="BITSTR-BMM" Name="amult_bd.bmm"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="amult_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="amult_timing_summary_init.rpt"/>
   <File Type="ROUTE-PWR" Name="amult_power_routed.rpt"/>
   <File Type="PA-TCL" Name="amult.tcl"/>
-  <File Type="OPT-TIMING" Name="amult_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="amult_opt.dcp"/>
+  <File Type="BITSTR-BMM" Name="amult_bd.bmm"/>
   <File Type="ROUTE-PWR-SUM" Name="amult_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="amult_reports.tcl"/>
+  <File Type="OPT-DCP" Name="amult_opt.dcp"/>
   <File Type="OPT-DRC" Name="amult_drc_opted.rpt"/>
   <File Type="OPT-HWDEF" Name="amult.hwdef"/>
   <File Type="PWROPT-DCP" Name="amult_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="amult_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="amult_timing_summary_pwropted.rpt"/>
   <File Type="PLACE-DCP" Name="amult_placed.dcp"/>
   <File Type="PLACE-IO" Name="amult_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="amult_clock_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="amult_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL-PB" Name="amult_utilization_placed.pb"/>
   <File Type="PLACE-CTRL" Name="amult_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="amult_incremental_reuse_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="amult_incremental_reuse_pre_placed.rpt"/>
   <File Type="BG-BGN" Name="amult.bgn"/>
-  <File Type="PLACE-TIMING" Name="amult_timing_summary_placed.rpt"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="amult_postplace_pwropt.dcp"/>
   <File Type="BG-BIN" Name="amult.bin"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="amult_timing_summary_postplace_pwropted.rpt"/>
   <File Type="PHYSOPT-DCP" Name="amult_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="amult_drc_physopted.rpt"/>
   <File Type="BITSTR-MSK" Name="amult.msk"/>
-  <File Type="PHYSOPT-TIMING" Name="amult_timing_summary_physopted.rpt"/>
   <File Type="ROUTE-ERROR-DCP" Name="amult_routed_error.dcp"/>
   <File Type="ROUTE-DCP" Name="amult_routed.dcp"/>
   <File Type="ROUTE-BLACKBOX-DCP" Name="amult_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="amult_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="amult_drc_routed.pb"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="amult.ltx"/>
   <File Type="ROUTE-DRC-RPX" Name="amult_drc_routed.rpx"/>
-  <File Type="BITSTR-MMI" Name="amult.mmi"/>
+  <File Type="BITSTR-LTX" Name="amult.ltx"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="amult_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="amult.mmi"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="amult_methodology_drc_routed.rpx"/>
-  <File Type="BITSTR-SYSDEF" Name="amult.sysdef"/>
   <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="amult_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="amult.sysdef"/>
   <File Type="ROUTE-PWR-RPX" Name="amult_power_routed.rpx"/>
   <File Type="ROUTE-STATUS" Name="amult_route_status.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="amult_route_status.pb"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="amult_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="amult_timing_summary_routed.pb"/>
   <File Type="ROUTE-TIMING-RPX" Name="amult_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="amult_incremental_reuse_routed.rpt"/>
   <File Type="ROUTE-CLK" Name="amult_clock_utilization_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW" Name="amult_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="amult_bus_skew_routed.pb"/>
   <File Type="ROUTE-BUS-SKEW-RPX" Name="amult_bus_skew_routed.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="amult_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="amult_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="amult_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="amult_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="amult_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="amult_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="amult_bus_skew_postroute_physopted.pb"/>
   <File Type="BG-BIT" Name="amult.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="amult_bus_skew_postroute_physopted.rpx"/>
   <File Type="BITSTR-RBT" Name="amult.rbt"/>
   <File Type="BITSTR-NKY" Name="amult.nky"/>
   <File Type="BG-DRC" Name="amult.drc"/>
@@ -107,9 +88,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018">
-      <Desc>Default settings for Implementation.</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>
