@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Oct 17 23:04:10 2021
+# Process ID: 8348
+# Current directory: C:/Users/pskon/Workbench_repo/testingAssignment5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12200 C:\Users\pskon\Workbench_repo\testingAssignment5\testingAssignment5.xpr
+# Log file: C:/Users/pskon/Workbench_repo/testingAssignment5/vivado.log
+# Journal file: C:/Users/pskon/Workbench_repo/testingAssignment5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/pskon/Workbench_repo/testingAssignment5/testingAssignment5.xpr
+update_compile_order -fileset sources_1
+set_property is_enabled true [get_files  C:/Users/pskon/Workbench_repo/testingAssignment5/testingAssignment5.srcs/sources_1/new/comparator_6bit.v]
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/testingAssignment5/testingAssignment5.srcs/sources_1/new/comp_5_bit.v]
+set_property is_enabled true [get_files  C:/Users/pskon/Workbench_repo/testingAssignment5/testingAssignment5.srcs/sim_1/new/comp_6bit_tb.v]
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/testingAssignment5/testingAssignment5.srcs/sim_1/new/comp_5bit_tb.v]
+launch_simulation
+source comp_6bit_tb.tcl
