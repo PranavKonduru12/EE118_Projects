@@ -61,19 +61,19 @@ module comparator_3bit(
     //comparator_2bit comp2(.a(a4[2:1]), .b(b4[2:1]), .g(g2), .e(e2), .l(l2));
     
     always @(*) begin
-        // for g4
+        // for g3
         if (a3[0] > b3[0]) begin
             g3 = 1;
             l3 = 0;
             e3 = 0;
         end
-        //for l4
+        //for l3
         else if (a3[0] < b3[0]) begin
             g3 = 0;
             l3 = 1;
             e3 = 0;
         end
-        //for e4
+        //for e3
         else begin
             g3 = 0;
             l3 = 0;
