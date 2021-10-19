@@ -54,21 +54,38 @@ module comparator_3bit(
     output reg g3, e3, l3
     );
     
-    wire g1, e1, l1; 
+    wire g1, e1, l1, g2, e2, l2; 
     
     //instantiation twice
-    comparator_2bit comp1(.a(a3[2:0]), .b(b3[2:0]), .g(g1), .e(e1), .l(l1));
+    comparator_2bit comp1(.a(a3[1:0]), .b(b3[1:0]), .g(g1), .e(e1), .l(l1));
     //comparator_2bit comp2(.a(a4[2:1]), .b(b4[2:1]), .g(g2), .e(e2), .l(l2));
-    
+    assign g2 = a3[2] & !b3[2];
     always @(*) begin
         // for g3
-        if (a3[0] > b3[0]) begin
+        /*if (a3[0] > b3[0]) begin
             g3 = 1;
             l3 = 0;
             e3 = 0;
         end
         //for l3
         else if (a3[0] < b3[0]) begin
+            g3 = 0;
+            l3 = 1;
+            e3 = 0;
+        end
+        //for e3
+        else begin
+            g3 = 0;
+            l3 = 0;
+            e3 = 1;
+        end*/
+        if (g2 | (e2 & g2)) begin
+            g3 = 1;
+            l3 = 0;
+            e3 = 0;
+        end
+        //for l3
+        else if (l2 | (e2 & l2)) begin
             g3 = 0;
             l3 = 1;
             e3 = 0;
