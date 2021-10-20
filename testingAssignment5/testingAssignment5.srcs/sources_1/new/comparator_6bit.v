@@ -22,9 +22,12 @@
 
 module two_bit_comp(a, b, g, e, l);
 	input [1:0] a, b;
-	output reg g, e, l;
+	output wire g, e, l;
 
-	always @(*) begin
+    assign g = (a[1] & !b[1]) | (a[0] & !b[1] & !b[0]) | (a[1] & a[0] & !b[0]);
+    assign e = (!a[1] & !a[0] & !b[1] & !b[0]) | (!a[1] & a[0] & !b[1] & b[0]) | (a[1] & a[0] & b[1] & b[0]) | (a[1] & !a[0] & b[1] & !b[0]);
+    assign l = (!a[1] & b[1]) | (!a[1] & !a[0] & b[0]) | (!a[0] & b[1] & b[0]); 
+	/*always @(*) begin
 		if (a > b) begin
 		g = 1;
 		l = 0;
@@ -42,20 +45,23 @@ module two_bit_comp(a, b, g, e, l);
 		g = 0;
 		e = 1;
 		end
-    end
+    end*/
 endmodule
 
 module six_bit_comp(a6, b6, g6, e6, l6);
 	input [5:0] a6, b6;
-	output reg g6, e6, l6;
+	output g6, e6, l6;
 	
 	wire g1, e1, l1, g2, e2, l2, g3, e3, l3;
 
 	two_bit_comp cp1(.a(a6[1:0]), .b(b6[1:0]), .g(g1), .e(e1), .l(l1));
 	two_bit_comp cp2(.a(a6[3:2]), .b(b6[3:2]), .g(g2), .e(e2), .l(l2));
 	two_bit_comp cp3(.a(a6[5:4]), .b(b6[5:4]), .g(g3), .e(e3), .l(l3));
-
-	always @(*) begin
+    
+    assign g6 = g3 | (g2 & e3) | (g1 & e3 & e2); 
+    assign e6 = e3 & e2 & e1;
+    assign l6 = l3 | (l2 & e3) | (l1 & e3 & e2);
+	/*always @(*) begin
 
 		if (a6[0] > b6[0]) begin
 			g6 = 1;
@@ -74,7 +80,7 @@ module six_bit_comp(a6, b6, g6, e6, l6);
 			l6 = 0;
 			e6 = 1;
 		end
-	end
+	end*/
 
 endmodule
 

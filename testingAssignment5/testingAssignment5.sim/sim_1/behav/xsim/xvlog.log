@@ -1,7 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pskon/Workbench_repo/testingAssignment5/testingAssignment5.srcs/sources_1/new/comp_5_bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comp_5_bit
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pskon/Workbench_repo/testingAssignment5/testingAssignment5.srcs/sources_1/new/comparator_6bit.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module two_bit_comp
 INFO: [VRFC 10-311] analyzing module six_bit_comp
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pskon/Workbench_repo/testingAssignment5/testingAssignment5.srcs/sim_1/new/comp_6bit_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module comp_6bit_tb
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pskon/Workbench_repo/testingAssignment5/testingAssignment5.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pskon/Workbench_repo/testingAssignment5/testingAssignment5.srcs/sim_1/new/comp_5bit_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comp_5bit_tb
