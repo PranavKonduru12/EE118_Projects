@@ -1,7 +1,7 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
 "../../../../EE118_MidtermProject.srcs/sources_1/new/alu.v" \
-"../../../../EE118_MidtermProject.srcs/sim_1/new/comparator_4it_tb.v" \
+"../../../../EE118_MidtermProject.srcs/sim_1/new/comparator_3bit_tb.v" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"

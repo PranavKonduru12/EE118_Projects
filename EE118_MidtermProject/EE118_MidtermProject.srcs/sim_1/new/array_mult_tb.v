@@ -25,7 +25,7 @@ module array_mult_tb();
     reg hcin3;
     wire [5:0] p;
     
-    mult_3bit t3 (.a3(a3), .b3(b3), .vcin3(vcin3), .hcin3(hcin3), .p(p));
+    multiplier_3bit t3 (.a3(a3), .b3(b3), .vcin3(vcin3), .hcin3(hcin3), .p(p));
     
     initial
         begin

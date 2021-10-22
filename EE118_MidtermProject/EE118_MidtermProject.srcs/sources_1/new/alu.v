@@ -19,7 +19,59 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
+//4-bit ALU
+module alu_4b(
+    input [2:0] a, b, //assinged inputs to the module
+    input [1:0] s,
+    input [2:0] vin,
+    input hin,
+    output reg [15:0] r); //assinged outputs
+    //Wires that connect 
+    wire g3,e3,l3;
+    wire [2:0] sum; 
+    wire cout;
+    wire a_even, b_even;
+    wire [5:0] p;
+    //Instances of all the modules were called here 
+    comparator_3bit al0(.a3(a), .b3(b),.g3(g3), .e3(e3), .l3(l3));
+     adder_3bit al1(.a3(a), .b3(b), .cin(s),.sum(sum), .cout(cout));
+    odd_even al2(.a(a), .b(b),.a_even(a_even), .b_even(b_even));
+     multiplier_3bit al3(.a3(a), .b3(b), .vcin3(vin), .hcin3(hin),.p(p));
+    always @(a or b or s)
+    case (s) //Each of these cases 
+        2'b00: begin
+            r[0]=g3;
+            r[1]=l3;
+            r[2]=e3;
+            r[15:3] = 0;
+        end
+        
+        2'b01: begin
+            r[2:0] = 0;
+            r[3] = sum[0];
+            r[4] = sum[1];
+            r[5] = sum[2];
+            r[6] = cout;
+            r[15:7]=8'd0;
+        end
+        
+        2'b10: begin
+            r[6:0] = 0;
+            r[7] = a_even;
+            r[8] = b_even;
+            r[15:9]=7'd0;
+            // r[8:7] = {b_even,a_even};
+        end
+        
+        2'b11: begin
+           r[8:0]=9'd0;
+           r[14:9] = p;
+           r[15] = 0;
+       end
+    endcase
+endmodule
 
+//2-bit comparator
 module comparator_2bit(
     input [1:0] a, b,
     output reg g, e, l
@@ -58,27 +110,9 @@ module comparator_3bit(
     
     //instantiation once for one 2-bit comparator
     comparator_2bit comp1(.a(a3[1:0]), .b(b3[1:0]), .g(g1), .e(e1), .l(l1));
-    //comparator_2bit comp2(.a(a4[2:1]), .b(b4[2:1]), .g(g2), .e(e2), .l(l2));
+    comparator_2bit comp2(.a(a3[2:1]), .b(b3[2:1]), .g(g2), .e(e2), .l(l2));
     //assign g2 = a3[2] & !b3[2];
     always @(*) begin
-        // for g3
-        /*if (a3[2] > b3[2]) begin
-            g3 = 1;
-            l3 = 0;
-            e3 = 0;
-        end
-        //for l3
-        else if (a3[2] < b3[2]) begin
-            g3 = 0;
-            l3 = 1;
-            e3 = 0;
-        end
-        //for e3
-        else begin
-            g3 = 0;
-            l3 = 0;
-            e3 = 1;
-        end*/
         if (a3[2] > b3[2] | ((a3[2] == b3[2]) & g1)) begin
             g3 = 1;
             l3 = 0;
@@ -127,17 +161,27 @@ endmodule
 //Check odd or even
 module odd_even(
     input [2:0] a, b,
-    output reg odd, even
+    output reg  a_even, b_even
     );
     
      always @(*) begin
-        if (a[0] == 0 & b[0] == 1) begin
-            even = 1; 
+        //if (a[0] == 0 & b[0] == 1) begin
+        if (a[0] == 1) begin
+            a_even = 0;
         end
         
-        else if (a[0] == 1 & b[0] == 0) begin
-            odd = 1;
-        end 
+        else begin
+            a_even=1;
+        end
+                
+        if (b[0] == 1) begin
+            b_even = 0;
+        end
+        
+        else begin
+            b_even=1;
+        end        
+        
      end 
 endmodule
 
@@ -153,7 +197,7 @@ module mult_adder_1bit(
 endmodule
 
 //3 x 3 array multiplier
-module mult_3bit(
+module multiplier_3bit(
     input [2:0] a3, b3, vcin3,
     input hcin3,
     output [5:0] p
