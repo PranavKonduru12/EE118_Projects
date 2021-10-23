@@ -1,4 +1,4 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/013162916/Downloads/EE118_MidtermProject/EE118_MidtermProject.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Pranav Konduru/Local Repo Workspace/EE118_Projects/EE118_MidtermProject/EE118_MidtermProject.srcs/sources_1/new/alu.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module alu_4b
 INFO: [VRFC 10-311] analyzing module comparator_2bit
 INFO: [VRFC 10-311] analyzing module comparator_3bit
@@ -7,7 +7,5 @@ INFO: [VRFC 10-311] analyzing module adder_3bit
 INFO: [VRFC 10-311] analyzing module odd_even
 INFO: [VRFC 10-311] analyzing module mult_adder_1bit
 INFO: [VRFC 10-311] analyzing module multiplier_3bit
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/013162916/Downloads/EE118_MidtermProject/EE118_MidtermProject.srcs/sim_1/new/alu_4b_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module alu_4b_tb
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/013162916/Downloads/EE118_MidtermProject/EE118_MidtermProject.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Pranav Konduru/Local Repo Workspace/EE118_Projects/EE118_MidtermProject/EE118_MidtermProject.srcs/sim_1/new/array_mult_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module array_mult_tb

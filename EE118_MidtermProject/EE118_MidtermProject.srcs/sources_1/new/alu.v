@@ -18,7 +18,8 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
-
+//Name: Pranav Konduru
+//ID: 013162916
 //4-bit ALU
 module alu_4b(          //assinged inputs to the module
     input [2:0] a, b,   //will take in the 2 3-bit input values     
@@ -76,6 +77,8 @@ module alu_4b(          //assinged inputs to the module
     endcase
 endmodule
 
+//Name: Pranav Konduru
+//ID: 013162916
 //2-bit comparator that will be used as a building block to make the 3-bit comparator
 module comparator_2bit(     //assigned input 
     input [1:0] a, b,      //takes in two values that each have 2-bit
@@ -102,6 +105,8 @@ module comparator_2bit(     //assigned input
     end
 endmodule
 
+//Name: Pranav Konduru
+//ID: 013162916
 //3-bit comparator
 module comparator_3bit( //assigned inputs
     input [2:0] a3, b3, //two 3-bit inputs 
@@ -135,6 +140,8 @@ module comparator_3bit( //assigned inputs
     end
 endmodule
 
+//Name: Pranav Konduru
+//ID: 013162916
 //1-bit full adder that will be used as a building block to make a 3-bit full adder
 module adder_1bit(      //assinged inputs
     input a, b, cin,    
@@ -145,8 +152,9 @@ module adder_1bit(      //assinged inputs
     assign sum = a^b^cin;                          //assinged sum to the inputs using gates 
 endmodule
 
+//Name: Pranav Konduru
+//ID: 013162916
 //3-bit full adder
-
 module adder_3bit(       //assigned inputs       
     input [2:0] a3, b3,  //two 3-bit inputs
     input cin,          //variable for cin
@@ -161,7 +169,9 @@ module adder_3bit(       //assigned inputs
     adder_1bit fa2 (.a(a3[2]), .b(b3[2]), .cin(c2), .sum(sum[2]), .cout(cout)); //third one-bit full adder   
 endmodule
 
-//Check odd or even module
+//Name: Pranav Konduru
+//ID: 013162916
+//Odd-Even Module
 module odd_even(                    //assigned inputs
     input [2:0] a, b,               //two 3-bit numbers will be taken in as input
     output reg  a_even, b_even      //assigned outputs
@@ -187,6 +197,8 @@ module odd_even(                    //assigned inputs
      end 
 endmodule
 
+//Name: Pranav Konduru
+//ID: 013162916
 //1-bit array multiplier block (1 x 1 array multiplier block) will be used as building block for 3 x 3 array multiplier
 module mult_adder_1bit(     //assigned inputs
     input a, b, vcin, hcin, 
@@ -198,6 +210,8 @@ module mult_adder_1bit(     //assigned inputs
     assign hcout = (x & vcin) | (x & hcin) |(vcin & hcin);
 endmodule
 
+//Name: Pranav Konduru
+//ID: 013162916
 //3 x 3 array multiplier
 module multiplier_3bit(         //assinged inputs
     input [2:0] a3, b3, vcin3,  //three 3-bit inputs

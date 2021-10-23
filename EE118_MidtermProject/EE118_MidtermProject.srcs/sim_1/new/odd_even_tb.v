@@ -18,8 +18,8 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
-
-
+//Name: Pranav Konduru
+//ID: 013162916
 module odd_even_tb();
     reg [2:0] a, b;
     wire a_even, b_even;

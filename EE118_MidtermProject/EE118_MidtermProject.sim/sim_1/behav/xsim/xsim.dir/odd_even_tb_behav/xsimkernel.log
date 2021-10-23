@@ -1,7 +1,7 @@
-Running: xsim.dir/odd_even_tb_behav/xsimk.exe -simmode gui -wdb odd_even_tb_behav.wdb -simrunnum 0 -socket 64480
+Running: xsim.dir/odd_even_tb_behav/xsimk.exe -simmode gui -wdb odd_even_tb_behav.wdb -simrunnum 0 -socket 50387
 Design successfully loaded
-Design Loading Memory Usage: 6864 KB (Peak: 6864 KB)
-Design Loading CPU Usage: 62 ms
+Design Loading Memory Usage: 6256 KB (Peak: 6256 KB)
+Design Loading CPU Usage: 0 ms
 Simulation completed
-Simulation Memory Usage: 7484 KB (Peak: 7484 KB)
-Simulation CPU Usage: 62 ms
+Simulation Memory Usage: 6856 KB (Peak: 6856 KB)
+Simulation CPU Usage: 31 ms
