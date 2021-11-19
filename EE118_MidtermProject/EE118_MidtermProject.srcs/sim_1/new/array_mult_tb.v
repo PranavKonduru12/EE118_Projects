@@ -19,13 +19,14 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
+//Pranav Konduru
+//ID: 013162916
 module array_mult_tb();
     reg [2:0] a3, b3, vcin3;
     reg hcin3;
     wire [5:0] p;
     
-    mult_3bit t3 (.a3(a3), .b3(b3), .vcin3(vcin3), .hcin3(hcin3), .p(p));
+    multiplier_3bit t3 (.a3(a3), .b3(b3), .vcin3(vcin3), .hcin3(hcin3), .p(p));
     
     initial
         begin

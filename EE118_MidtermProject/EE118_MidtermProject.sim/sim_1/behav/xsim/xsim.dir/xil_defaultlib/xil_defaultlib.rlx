@@ -2,8 +2,8 @@
 2018.3
 Dec  7 2018
 00:33:28
-C:/Users/pskon/Workbench_repo/EE118_MidtermProject/EE118_MidtermProject.sim/sim_1/behav/xsim/glbl.v,1634294637,verilog,,,,glbl,,,,,,,,
-C:/Users/pskon/Workbench_repo/EE118_MidtermProject/EE118_MidtermProject.srcs/sim_1/new/adder3_bit_tb.v,1634784390,verilog,,,,adder3_bit_tb,,,,,,,,
-C:/Users/pskon/Workbench_repo/EE118_MidtermProject/EE118_MidtermProject.srcs/sim_1/new/fulladder_3bit_tb.v,1634808750,verilog,,,,fulladder_3bit_tb,,,,,,,,
-C:/Users/pskon/Workbench_repo/EE118_MidtermProject/EE118_MidtermProject.srcs/sim_1/new/odd_even_tb.v,1634807574,verilog,,,,odd_even_tb,,,,,,,,
-C:/Users/pskon/Workbench_repo/EE118_MidtermProject/EE118_MidtermProject.srcs/sources_1/new/alu.v,1634808828,verilog,,C:/Users/pskon/Workbench_repo/EE118_MidtermProject/EE118_MidtermProject.srcs/sim_1/new/fulladder_3bit_tb.v,,adder_1bit;adder_3bit;comparator_2bit;comparator_3bit;mult_3bit;mult_adder_1bit;odd_even,,,,,,,,
+C:/Users/Pranav Konduru/Local Repo Workspace/EE118_Projects/EE118_MidtermProject/EE118_MidtermProject.sim/sim_1/behav/xsim/glbl.v,1634933330,verilog,,,,glbl,,,,,,,,
+C:/Users/Pranav Konduru/Local Repo Workspace/EE118_Projects/EE118_MidtermProject/EE118_MidtermProject.srcs/sim_1/new/alu_4b_tb.v,1634969021,verilog,,,,alu_4b_tb,,,,,,,,
+,,,,,,array_mult_tb,,,,,,,,
+,,,,,,,,,,,,,,
+C:/Users/Pranav Konduru/Local Repo Workspace/EE118_Projects/EE118_MidtermProject/EE118_MidtermProject.srcs/sources_1/new/alu.v,1634971723,verilog,,C:/Users/Pranav Konduru/Local Repo Workspace/EE118_Projects/EE118_MidtermProject/EE118_MidtermProject.srcs/sim_1/new/array_mult_tb.v,,adder_1bit;adder_3bit;alu_4b;comparator_2bit;comparator_3bit;mult_adder_1bit;multiplier_3bit;odd_even,,,,,,,,
