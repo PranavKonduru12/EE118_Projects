@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1636050549">
+  <File Type="BITSTR-BMM" Name="multiple_storage_bd.bmm"/>
+  <File Type="PA-TCL" Name="multiple_storage.tcl"/>
+  <File Type="OPT-DCP" Name="multiple_storage_opt.dcp"/>
+  <File Type="REPORTS-TCL" Name="multiple_storage_reports.tcl"/>
+  <File Type="OPT-DRC" Name="multiple_storage_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="multiple_storage.hwdef"/>
+  <File Type="PWROPT-DCP" Name="multiple_storage_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="multiple_storage_placed.dcp"/>
+  <File Type="PLACE-IO" Name="multiple_storage_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="multiple_storage_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="multiple_storage_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="multiple_storage_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="multiple_storage_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="multiple_storage.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="multiple_storage_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="multiple_storage.bin"/>
+  <File Type="PHYSOPT-DCP" Name="multiple_storage_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="multiple_storage.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="multiple_storage_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="multiple_storage_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="multiple_storage_routed_bb.dcp"/>
+  <File Type="BITSTR-LTX" Name="multiple_storage.ltx"/>
+  <File Type="BITSTR-MMI" Name="multiple_storage.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="multiple_storage.sysdef"/>
+  <File Type="ROUTE-TIMING-PB" Name="multiple_storage_timing_summary_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="multiple_storage_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="multiple_storage_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="multiple_storage.bit"/>
+  <File Type="BITSTR-RBT" Name="multiple_storage.rbt"/>
+  <File Type="BITSTR-NKY" Name="multiple_storage.nky"/>
+  <File Type="BG-DRC" Name="multiple_storage.drc"/>
+  <File Type="RDI-RDI" Name="multiple_storage.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/latch_d.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/multiple_storage.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ms_d_flipflop.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/latch.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../design_4.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../design_3.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="multiple_storage"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/latches_constraints.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/latches_d_constraints.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/multiple_storage_constraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

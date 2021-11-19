@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Nov  4 11:42:11 2021
+# Process ID: 7796
+# Current directory: C:/Users/013162916/Documents/labF_v2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21660 C:\Users\013162916\Documents\labF_v2\labF.xpr
+# Log file: C:/Users/013162916/Documents/labF_v2/vivado.log
+# Journal file: C:/Users/013162916/Documents/labF_v2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/013162916/Documents/labF_v2/labF.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/013162916/Downloads/design_4.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/013162916/Downloads/design_3.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/013162916/Downloads/tb_4.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/013162916/Downloads/tb_3.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:34 ; elapsed = 00:00:24 . Memory (MB): peak = 1016.164 ; gain = 434.961
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/013162916/Downloads/design_3.v] -no_script -reset -force -quiet
+remove_files  C:/Users/013162916/Downloads/design_3.v
+set_property is_enabled true [get_files  C:/Users/013162916/Documents/labF_v2/labF.srcs/sim_1/new/ms_flipflop_tb.v]
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files C:/Users/013162916/Downloads/tb_4.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/013162916/Downloads/tb_4.v
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Users/013162916/Downloads/tb_4.v
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Users/013162916/Downloads/tb_4.v
+WARNING: [filemgmt 56-12] File 'C:/Users/013162916/Downloads/tb_4.v' cannot be added to the project because it already exists in the project, skipping this file
+set_property is_enabled false [get_files  C:/Users/013162916/Downloads/tb_4.v]
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Nov  4 11:50:19 2021...
