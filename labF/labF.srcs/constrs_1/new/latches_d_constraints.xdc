@@ -1,3 +1,6 @@
+##Pranav Konduru
+#03162916
+
 #set_property -dict { PACKAGE_PIN C12   IOSTANDARD LVCMOS33 } [get_ports { R }]; #IO_L3P_T0_DQS_AD1P_15 Sch=cpu_resetn
 #set_property -dict { PACKAGE_PIN N17   IOSTANDARD LVCMOS33 } [get_ports { S }]; #IO_L9P_T1_DQS_14 Sch=btnc
 set_property -dict { PACKAGE_PIN M13   IOSTANDARD LVCMOS33 } [get_ports { D }];

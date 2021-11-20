@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1636050549">
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1637375973">
   <File Type="PA-TCL" Name="multiple_storage.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="multiple_storage_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="multiple_storage_reports.tcl"/>
   <File Type="RDS-RDS" Name="multiple_storage.vds"/>
   <File Type="RDS-UTIL" Name="multiple_storage_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="multiple_storage_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="multiple_storage.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="multiple_storage_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="multiple_storage_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PSRCDIR/sources_1/new/latch_d.v">
+    <File Path="$PSRCDIR/sources_1/new/latch_d_pt2.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/multiple_storage.v">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/ms_d_flipflop.v">
+    <File Path="$PSRCDIR/sources_1/new/latch_pt1.v">
       <FileInfo>
         <Attr Name="UserDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -30,7 +26,14 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/latch.v">
+    <File Path="$PSRCDIR/sources_1/new/multiple_storage_pt4.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ms_d_flipflop_pt3.v">
       <FileInfo>
         <Attr Name="UserDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -38,17 +41,11 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../design_4.v">
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/ms_part3.v">
       <FileInfo>
         <Attr Name="UserDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../design_3.v">
-      <FileInfo>
-        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Downloads/ms_part3.v"/>
+        <Attr Name="ImportTime" Val="1637358641"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -57,7 +54,6 @@
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
       <Option Name="TopModule" Val="multiple_storage"/>
-      <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
@@ -78,6 +74,13 @@
     </File>
     <File Path="$PSRCDIR/constrs_1/new/multiple_storage_constraints.xdc">
       <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/ms_flipflop_constraints.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
       </FileInfo>

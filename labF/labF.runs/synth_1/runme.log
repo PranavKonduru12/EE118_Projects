@@ -14,20 +14,20 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 24212 
+INFO: Helper process launched with PID 9648 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 431.457 ; gain = 98.137
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 361.953 ; gain = 100.816
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'multiple_storage' [C:/Users/013162916/Documents/labF_v2/labF.srcs/sources_1/new/multiple_storage.v:41]
-INFO: [Synth 8-6157] synthesizing module 'latch_d' [C:/Users/013162916/Documents/labF_v2/labF.srcs/sources_1/new/latch_d.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'latch_d' (1#1) [C:/Users/013162916/Documents/labF_v2/labF.srcs/sources_1/new/latch_d.v:23]
-INFO: [Synth 8-6157] synthesizing module 'Positiveedge' [C:/Users/013162916/Documents/labF_v2/labF.srcs/sources_1/new/multiple_storage.v:22]
-INFO: [Synth 8-6155] done synthesizing module 'Positiveedge' (2#1) [C:/Users/013162916/Documents/labF_v2/labF.srcs/sources_1/new/multiple_storage.v:22]
-INFO: [Synth 8-6157] synthesizing module 'Negativeedge' [C:/Users/013162916/Documents/labF_v2/labF.srcs/sources_1/new/multiple_storage.v:32]
-INFO: [Synth 8-6155] done synthesizing module 'Negativeedge' (3#1) [C:/Users/013162916/Documents/labF_v2/labF.srcs/sources_1/new/multiple_storage.v:32]
-INFO: [Synth 8-6155] done synthesizing module 'multiple_storage' (4#1) [C:/Users/013162916/Documents/labF_v2/labF.srcs/sources_1/new/multiple_storage.v:41]
+INFO: [Synth 8-6157] synthesizing module 'multiple_storage' [C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/multiple_storage_pt4.v:43]
+INFO: [Synth 8-6157] synthesizing module 'latch_d' [C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/latch_d_pt2.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'latch_d' (1#1) [C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/latch_d_pt2.v:24]
+INFO: [Synth 8-6157] synthesizing module 'Positiveedge' [C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/multiple_storage_pt4.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'Positiveedge' (2#1) [C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/multiple_storage_pt4.v:24]
+INFO: [Synth 8-6157] synthesizing module 'Negativeedge' [C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/multiple_storage_pt4.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'Negativeedge' (3#1) [C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/multiple_storage_pt4.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'multiple_storage' (4#1) [C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/multiple_storage_pt4.v:43]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 487.301 ; gain = 153.980
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 418.074 ; gain = 156.938
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -40,47 +40,47 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 487.301 ; gain = 153.980
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 418.074 ; gain = 156.938
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 487.301 ; gain = 153.980
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 418.074 ; gain = 156.938
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/013162916/Documents/labF_v2/labF.srcs/constrs_1/new/multiple_storage_constraints.xdc]
-Finished Parsing XDC File [C:/Users/013162916/Documents/labF_v2/labF.srcs/constrs_1/new/multiple_storage_constraints.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/013162916/Documents/labF_v2/labF.srcs/constrs_1/new/multiple_storage_constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/multiple_storage_propImpl.xdc].
+Parsing XDC File [C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/constrs_1/new/multiple_storage_constraints.xdc]
+Finished Parsing XDC File [C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/constrs_1/new/multiple_storage_constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/constrs_1/new/multiple_storage_constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/multiple_storage_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/multiple_storage_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 785.895 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 717.602 ; gain = 0.000
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 785.949 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 717.645 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 785.949 ; gain = 0.000
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 785.949 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 717.645 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 717.645 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 785.949 ; gain = 452.629
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 717.645 ; gain = 456.508
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 785.949 ; gain = 452.629
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 717.645 ; gain = 456.508
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 785.949 ; gain = 452.629
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 717.645 ; gain = 456.508
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 785.949 ; gain = 452.629
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 717.645 ; gain = 456.508
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -126,7 +126,7 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 785.949 ; gain = 452.629
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 717.645 ; gain = 456.508
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -138,13 +138,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 816.125 ; gain = 482.805
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 748.316 ; gain = 487.180
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 816.125 ; gain = 482.805
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 748.316 ; gain = 487.180
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -161,10 +161,10 @@ Found timing loop:
      2: \latch1/i_1 /O (LUT3)
      3: \latch1/i_1 /I0 (LUT3)
      4: \latch1/i_3 /O (LUT2)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/013162916/Documents/labF_v2/labF.srcs/sources_1/new/multiple_storage.v:41]
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/multiple_storage_pt4.v:43]
 Inferred a: "set_disable_timing -from I1 -to O \latch1/i_3 "
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 825.691 ; gain = 492.371
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 758.133 ; gain = 496.996
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -188,7 +188,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 825.691 ; gain = 492.371
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 758.133 ; gain = 496.996
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -201,7 +201,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 825.691 ; gain = 492.371
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 758.133 ; gain = 496.996
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -213,25 +213,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 825.691 ; gain = 492.371
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 758.133 ; gain = 496.996
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 825.691 ; gain = 492.371
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 758.133 ; gain = 496.996
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 825.691 ; gain = 492.371
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 758.133 ; gain = 496.996
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 825.691 ; gain = 492.371
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 758.133 ; gain = 496.996
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -264,25 +264,25 @@ Report Instance Areas:
 |4     |  latch1 |latch_d      |     2|
 +------+---------+-------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 825.691 ; gain = 492.371
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 758.133 ; gain = 496.996
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 1 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 825.691 ; gain = 193.723
-Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 825.691 ; gain = 492.371
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 758.133 ; gain = 197.426
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 758.133 ; gain = 496.996
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 838.129 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 767.766 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
 18 Infos, 0 Warnings, 1 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 838.129 ; gain = 517.992
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 838.129 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 767.773 ; gain = 519.797
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 767.773 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint 'C:/Users/013162916/Documents/labF_v2/labF.runs/synth_1/multiple_storage.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.runs/synth_1/multiple_storage.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file multiple_storage_utilization_synth.rpt -pb multiple_storage_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Nov  4 11:30:06 2021...
+INFO: [Common 17-206] Exiting Vivado at Fri Nov 19 18:39:58 2021...

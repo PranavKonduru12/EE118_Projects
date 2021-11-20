@@ -1,8 +1,8 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Thu Nov  4 11:30:05 2021
-| Host         : COE-LAB-E305-07 running 64-bit major release  (build 9200)
+| Date         : Fri Nov 19 18:39:58 2021
+| Host         : DESKTOP-LROGSR2 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file multiple_storage_utilization_synth.rpt -pb multiple_storage_utilization_synth.pb
 | Design       : multiple_storage
 | Device       : 7a100tcsg324-1

@@ -1,7 +1,7 @@
-Running: xsim.dir/multiple_storage_tb_behav/xsimk.exe -simmode gui -wdb multiple_storage_tb_behav.wdb -simrunnum 0 -socket 54069
+Running: xsim.dir/multiple_storage_tb_behav/xsimk.exe -simmode gui -wdb multiple_storage_tb_behav.wdb -simrunnum 0 -socket 63160
 Design successfully loaded
-Design Loading Memory Usage: 6200 KB (Peak: 6200 KB)
-Design Loading CPU Usage: 0 ms
+Design Loading Memory Usage: 5784 KB (Peak: 5784 KB)
+Design Loading CPU Usage: 15 ms
 Simulation completed
-Simulation Memory Usage: 6816 KB (Peak: 6816 KB)
-Simulation CPU Usage: 0 ms
+Simulation Memory Usage: 6520 KB (Peak: 6520 KB)
+Simulation CPU Usage: 15 ms

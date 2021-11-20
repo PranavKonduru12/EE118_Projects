@@ -2,47 +2,50 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Thu Nov 18 22:35:08 2021
-# Process ID: 21288
-# Current directory: C:/Users/pskon/Downloads/labF_v2
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5896 C:\Users\pskon\Downloads\labF_v2\labF.xpr
-# Log file: C:/Users/pskon/Downloads/labF_v2/vivado.log
-# Journal file: C:/Users/pskon/Downloads/labF_v2\vivado.jou
+# Start of session at: Fri Nov 19 12:02:29 2021
+# Process ID: 23856
+# Current directory: C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6352 C:\Users\pskon\Workbench_repo\Fall2021_EE118_labs_repo\labF\labF.xpr
+# Log file: C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/vivado.log
+# Journal file: C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/pskon/Downloads/labF_v2/labF.xpr
-update_compile_order -fileset sources_1
-export_ip_user_files -of_objects  [get_files C:/Users/pskon/Downloads/labF_v2/labF.srcs/sources_1/new/multiple_storage.v] -no_script -reset -force -quiet
-remove_files  C:/Users/pskon/Downloads/labF_v2/labF.srcs/sources_1/new/multiple_storage.v
-update_compile_order -fileset sources_1
-export_ip_user_files -of_objects  [get_files C:/Users/pskon/Downloads/labF_v2/labF.srcs/sources_1/new/latch.v] -no_script -reset -force -quiet
-remove_files  C:/Users/pskon/Downloads/labF_v2/labF.srcs/sources_1/new/latch.v
-export_ip_user_files -of_objects  [get_files C:/Users/pskon/Downloads/labF_v2/labF.srcs/sources_1/new/ms_d_flipflop.v] -no_script -reset -force -quiet
-remove_files  C:/Users/pskon/Downloads/labF_v2/labF.srcs/sources_1/new/ms_d_flipflop.v
-export_ip_user_files -of_objects  [get_files C:/Users/pskon/Downloads/labF_v2/labF.srcs/sources_1/new/latch_d.v] -no_script -reset -force -quiet
-remove_files  C:/Users/pskon/Downloads/labF_v2/labF.srcs/sources_1/new/latch_d.v
-add_files -norecurse {C:/Users/pskon/Downloads/labF_v2/labF.srcs/sources_1/new/latch_pt1.v C:/Users/pskon/Downloads/labF_v2/labF.srcs/sources_1/new/ms_d_flipflop_pt3.v C:/Users/pskon/Downloads/labF_v2/labF.srcs/sources_1/new/latch_d_pt2.v C:/Users/pskon/Downloads/labF_v2/labF.srcs/sources_1/new/multiple_storage_pt4.v}
-update_compile_order -fileset sources_1
-set_property is_enabled false [get_files  C:/Users/pskon/Downloads/labF_v2/labF.srcs/sources_1/new/ms_d_flipflop_pt3.v]
-set_property is_enabled false [get_files  C:/Users/pskon/Downloads/labF_v2/labF.srcs/sources_1/new/latch_pt1.v]
-set_property is_enabled true [get_files  C:/Users/pskon/Downloads/labF_v2/labF.srcs/sources_1/new/latch_pt1.v]
-set_property is_enabled false [get_files  C:/Users/pskon/Downloads/labF_v2/labF.srcs/sources_1/new/multiple_storage_pt4.v]
-update_compile_order -fileset sources_1
-set_property is_enabled true [get_files  C:/Users/pskon/Downloads/labF_v2/labF.srcs/constrs_1/new/latches_constraints.xdc]
-set_property is_enabled false [get_files  C:/Users/pskon/Downloads/labF_v2/labF.srcs/constrs_1/new/multiple_storage_constraints.xdc]
-set_property is_enabled true [get_files  C:/Users/pskon/Downloads/labF_v2/labF.srcs/sim_1/new/sr_latch_tb.v]
-set_property is_enabled false [get_files  C:/Users/pskon/Downloads/labF_v2/labF.srcs/sim_1/new/multiple_storage_tb.v]
+open_project C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.xpr
+set_property is_enabled true [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/latch_d_pt2.v]
+set_property is_enabled true [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sim_1/new/d_latch_tb.v]
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/latch_pt1.v]
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sim_1/new/sr_latch_tb.v]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top latch_d [current_fileset]
+# Re-enabling previously disabled source management mode.
 set_property source_mgmt_mode DisplayOnly [current_project]
+set_property is_enabled true [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/constrs_1/new/latches_d_constraints.xdc]
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/constrs_1/new/latches_constraints.xdc]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top d_latch_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+launch_simulation
+source d_latch_tb.tcl
+close_sim
+synth_design -rtl -name rtl_1
+close_design
+launch_simulation
+source d_latch_tb.tcl
+close_sim
+set_property is_enabled true [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sim_1/new/sr_latch_tb.v]
+set_property is_enabled true [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/latch_pt1.v]
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/latch_d_pt2.v]
 # Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
 set_property source_mgmt_mode None [current_project]
 set_property top sr_latch_tb [get_filesets sim_1]
 set_property top_lib xil_defaultlib [get_filesets sim_1]
 # Re-enabling previously disabled source management mode.
 set_property source_mgmt_mode DisplayOnly [current_project]
-launch_simulation
-source sr_latch_tb.tcl
-close_sim
-set_property is_enabled false [get_files  C:/Users/pskon/Downloads/labF_v2/labF.srcs/sources_1/new/latch_d_pt2.v]
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sim_1/new/d_latch_tb.v]
 # Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
 set_property source_mgmt_mode None [current_project]
 set_property top latch_sr [current_fileset]
@@ -50,9 +53,175 @@ set_property top latch_sr [current_fileset]
 set_property source_mgmt_mode DisplayOnly [current_project]
 launch_simulation
 source sr_latch_tb.tcl
+set_property is_enabled true [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sim_1/new/d_latch_tb.v]
+set_property is_enabled true [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/latch_d_pt2.v]
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/latch_pt1.v]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top latch_d [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sim_1/new/sr_latch_tb.v]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top d_latch_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+launch_simulation
+source d_latch_tb.tcl
+reorder_files -fileset constrs_1 -after C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/constrs_1/new/latches_d_constraints.xdc C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/constrs_1/new/latches_d_constraints.xdc
 close_sim
+reorder_files -fileset constrs_1 -before C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/constrs_1/new/latches_d_constraints.xdc C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/constrs_1/new/latches_d_constraints.xdc
+close_sim
+close [ open C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/constrs_1/new/ms_d_flipflop_constraints.xdc w ]
+add_files -fileset constrs_1 C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/constrs_1/new/ms_d_flipflop_constraints.xdc
+set_property is_enabled true [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/ms_d_flipflop_pt3.v]
+set_property is_enabled true [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sim_1/new/ms_flipflop_tb.v]
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sim_1/new/d_latch_tb.v]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ms_d_flipflop [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/latch_d_pt2.v]
+set_property is_enabled true [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/latch_d_pt2.v]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ms_flipflop_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/constrs_1/new/latches_d_constraints.xdc]
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/ms_d_flipflop_pt3.v]
+set_property is_enabled true [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/ms_d_flipflop_pt3.v]
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/ms_d_flipflop_pt3.v]
+add_files -norecurse C:/Users/pskon/Downloads/design_4.v
+export_ip_user_files -of_objects  [get_files C:/Users/pskon/Downloads/design_4.v] -no_script -reset -force -quiet
+remove_files  C:/Users/pskon/Downloads/design_4.v
+import_files -norecurse C:/Users/pskon/Downloads/ms_part3.v
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sim_1/new/ms_flipflop_tb.v]
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Users/pskon/Downloads/ms_tb_part3.v
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/latch_d_pt2.v]
+launch_simulation
+source ms_flipflop_tb.tcl
+close_sim
+synth_design -rtl -name rtl_1
+synth_design -rtl -name rtl_1
+synth_design -rtl -name rtl_1
+export_ip_user_files -of_objects  [get_files C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/constrs_1/new/ms_d_flipflop_constraints.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/constrs_1/new/ms_d_flipflop_constraints.xdc
+file delete -force C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/constrs_1/new/ms_d_flipflop_constraints.xdc
+close [ open C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/constrs_1/new/ms_flipflop_constraints.xdc w ]
+add_files -fileset constrs_1 C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/constrs_1/new/ms_flipflop_constraints.xdc
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top MS [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top mstb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+synth_design -rtl -name rtl_1
+refresh_design
+refresh_design
+close_design
+launch_simulation
+source mstb.tcl
+close_sim
+set_property is_enabled true [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/multiple_storage_pt4.v]
+set_property is_enabled true [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/constrs_1/new/multiple_storage_constraints.xdc]
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/constrs_1/new/ms_flipflop_constraints.xdc]
+set_property is_enabled true [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sim_1/new/multiple_storage_tb.v]
+set_property is_enabled false [get_files  C:/Users/pskon/Downloads/ms_tb_part3.v]
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/imports/Downloads/ms_part3.v]
+set_property is_enabled true [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/latch_d_pt2.v]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top multiple_storage [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top multiple_storage_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+set_property is_enabled true [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/ms_d_flipflop_pt3.v]
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/multiple_storage_pt4.v]
+set_property is_enabled true [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/imports/Downloads/ms_part3.v]
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/ms_d_flipflop_pt3.v]
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/latch_d_pt2.v]
+set_property is_enabled true [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/constrs_1/new/ms_flipflop_constraints.xdc]
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/constrs_1/new/multiple_storage_constraints.xdc]
+set_property is_enabled true [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/constrs_1/new/multiple_storage_constraints.xdc]
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/constrs_1/new/ms_flipflop_constraints.xdc]
+set_property is_enabled true [get_files  C:/Users/pskon/Downloads/ms_tb_part3.v]
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sim_1/new/multiple_storage_tb.v]
+launch_simulation
+source multiple_storage_tb.tcl
+restart
+run 200 ns
+restart
+run all
+close_sim
+launch_simulation
+source multiple_storage_tb.tcl
+close_sim
+launch_simulation
+source multiple_storage_tb.tcl
+restart
+run 600 ns
+close_sim
+launch_simulation
+source multiple_storage_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top mstb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top MS [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+launch_simulation
+source mstb.tcl
+restart
+run 200 ns
+close_sim
+close_sim
+launch_simulation
+source mstb.tcl
+close_sim
+set_property is_enabled true [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/multiple_storage_pt4.v]
+set_property is_enabled false [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/imports/Downloads/ms_part3.v]
+set_property is_enabled true [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sources_1/new/latch_d_pt2.v]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top multiple_storage [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+set_property is_enabled true [get_files  C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.srcs/sim_1/new/multiple_storage_tb.v]
+set_property is_enabled false [get_files  C:/Users/pskon/Downloads/ms_tb_part3.v]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top multiple_storage_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
 synth_design -rtl -name rtl_1
 close_design
 launch_simulation
-source sr_latch_tb.tcl
+source multiple_storage_tb.tcl
+restart
+run 600 ns
 close_sim
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1

@@ -2,11 +2,11 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Thu Nov  4 11:30:15 2021
-# Process ID: 30452
-# Current directory: C:/Users/013162916/Documents/labF_v2/labF.runs/impl_1
+# Start of session at: Fri Nov 19 18:40:04 2021
+# Process ID: 8296
+# Current directory: C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.runs/impl_1
 # Command line: vivado.exe -log multiple_storage.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source multiple_storage.tcl -notrace
-# Log file: C:/Users/013162916/Documents/labF_v2/labF.runs/impl_1/multiple_storage.vdi
-# Journal file: C:/Users/013162916/Documents/labF_v2/labF.runs/impl_1\vivado.jou
+# Log file: C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.runs/impl_1/multiple_storage.vdi
+# Journal file: C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labF/labF.runs/impl_1\vivado.jou
 #-----------------------------------------------------------
 source multiple_storage.tcl -notrace
