@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Dec  1 21:37:17 2021
+# Process ID: 25548
+# Current directory: C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labG_allparts
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27452 C:\Users\pskon\Workbench_repo\Fall2021_EE118_labs_repo\labG_allparts\labG_allparts.xpr
+# Log file: C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labG_allparts/vivado.log
+# Journal file: C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labG_allparts\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/labG_allparts/labG_allparts.xpr
+update_compile_order -fileset sources_1
