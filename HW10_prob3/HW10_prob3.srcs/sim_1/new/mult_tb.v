@@ -42,7 +42,7 @@ module smult4x4_tb();
             clk     <= 1; 
             St      <= 0; 
             Mplier  <= 4'b1111; 
-            Mcand   <= 4'b1111; 
+            Mcand   <= 4'b1101; 
         #10 St      <= 1; 
         #10 St      <= 0;         
     end    
