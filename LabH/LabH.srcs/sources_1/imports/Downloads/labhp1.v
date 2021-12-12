@@ -19,7 +19,8 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
+//Name: Pranav Kondruu
+//ID: 013162916
 module LED_BCD8x7seg( clk, ca, cb, cc, cd, ce, cf, cg, dp, an);
 input clk;
 output ca, cb, cc, cd, ce, cf, cg, dp;
@@ -28,7 +29,7 @@ wire [2:0] digitScan;
 reg [21:0] cnt;
 assign digitScan = cnt[10:8];
 
-always @(posedge clk) cnt<=cnt+22'h1;
+always @(posedge clk) cnt<=cnt+22'h1; //rolling over bit; the counter increments once this bit is reached (22)  
 wire cntovf = &cnt;
 // 8 BCD digits
 wire [8*4-1:0] BCD_digits;

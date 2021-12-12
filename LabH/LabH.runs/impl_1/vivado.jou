@@ -2,11 +2,11 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Thu Dec  2 10:41:38 2021
-# Process ID: 9180
-# Current directory: C:/Users/013162916/EE118_Labs/LabH/LabH.runs/impl_1
+# Start of session at: Sat Dec 11 20:04:32 2021
+# Process ID: 6960
+# Current directory: C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/LabH/LabH.runs/impl_1
 # Command line: vivado.exe -log textScrolling.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source textScrolling.tcl -notrace
-# Log file: C:/Users/013162916/EE118_Labs/LabH/LabH.runs/impl_1/textScrolling.vdi
-# Journal file: C:/Users/013162916/EE118_Labs/LabH/LabH.runs/impl_1\vivado.jou
+# Log file: C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/LabH/LabH.runs/impl_1/textScrolling.vdi
+# Journal file: C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/LabH/LabH.runs/impl_1\vivado.jou
 #-----------------------------------------------------------
 source textScrolling.tcl -notrace

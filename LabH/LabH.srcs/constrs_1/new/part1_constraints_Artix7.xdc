@@ -1,3 +1,5 @@
+##Pranav Konduru
+##013162916
 set_property -dict { PACKAGE_PIN E3    IOSTANDARD LVCMOS33 } [get_ports { clk }]; 
 ##7 segment display 
 set_property -dict { PACKAGE_PIN T10   IOSTANDARD LVCMOS33 } [get_ports { ca }]; #IO_L24N_T3_A00_D16_14 Sch=ca 

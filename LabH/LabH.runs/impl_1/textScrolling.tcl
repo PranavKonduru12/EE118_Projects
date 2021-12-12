@@ -67,16 +67,15 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param xicom.use_bs_reader 1
   create_project -in_memory -part xc7a100tcsg324-1
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir C:/Users/013162916/EE118_Labs/LabH/LabH.cache/wt [current_project]
-  set_property parent.project_path C:/Users/013162916/EE118_Labs/LabH/LabH.xpr [current_project]
-  set_property ip_output_repo C:/Users/013162916/EE118_Labs/LabH/LabH.cache/ip [current_project]
+  set_property webtalk.parent_dir C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/LabH/LabH.cache/wt [current_project]
+  set_property parent.project_path C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/LabH/LabH.xpr [current_project]
+  set_property ip_output_repo C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/LabH/LabH.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  add_files -quiet C:/Users/013162916/EE118_Labs/LabH/LabH.runs/synth_1/textScrolling.dcp
-  read_xdc C:/Users/013162916/EE118_Labs/LabH/LabH.srcs/constrs_1/new/part2_constraints_Artix7.xdc
+  add_files -quiet C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/LabH/LabH.runs/synth_1/textScrolling.dcp
+  read_xdc C:/Users/pskon/Workbench_repo/Fall2021_EE118_labs_repo/LabH/LabH.srcs/constrs_1/new/part2_constraints_Artix7.xdc
   link_design -top textScrolling -part xc7a100tcsg324-1
   close_msg_db -file init_design.pb
 } RESULT]

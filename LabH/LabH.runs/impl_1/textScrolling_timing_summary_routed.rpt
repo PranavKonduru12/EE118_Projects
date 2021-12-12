@@ -1,8 +1,8 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Thu Dec  2 10:43:32 2021
-| Host         : COE-LAB-E305-14 running 64-bit major release  (build 9200)
+| Date         : Sat Dec 11 20:05:23 2021
+| Host         : DESKTOP-LROGSR2 running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -max_paths 10 -file textScrolling_timing_summary_routed.rpt -pb textScrolling_timing_summary_routed.pb -rpx textScrolling_timing_summary_routed.rpx -warn_on_violation
 | Design       : textScrolling
 | Device       : 7a100t-csg324
