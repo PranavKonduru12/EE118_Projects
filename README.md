@@ -1,4 +1,4 @@
-#"Projects for EE118 - Digital Logic Circuit Design"
+#Projects for EE118 - Digital Logic Circuit Design
  
 ##"Lab(Project) B - Design Entry Simulation using Vivado"
 ##"Lab(Project) C - Simulation and demonstration of full adder and majority circuit on FPGA"
