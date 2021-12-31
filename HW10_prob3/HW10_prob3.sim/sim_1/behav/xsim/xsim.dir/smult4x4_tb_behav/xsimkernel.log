@@ -1,7 +1,0 @@
-Running: xsim.dir/smult4x4_tb_behav/xsimk.exe -simmode gui -wdb smult4x4_tb_behav.wdb -simrunnum 0 -socket 52061
-Design successfully loaded
-Design Loading Memory Usage: 5768 KB (Peak: 5768 KB)
-Design Loading CPU Usage: 31 ms
-Simulation completed
-Simulation Memory Usage: 6476 KB (Peak: 6476 KB)
-Simulation CPU Usage: 31 ms
